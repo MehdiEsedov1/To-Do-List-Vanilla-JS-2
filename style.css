@@ -1,0 +1,13 @@
+.list-group li {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px rgb(225, 223, 223) solid;
+    border-radius: 6px;
+    list-style: none;
+    font-weight:600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
