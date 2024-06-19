@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", BringTodosFromStorage);
 
 function addToDo(e) {
     if (added_todo.value.trim() === "") {
-        //error
+        console.log("Input is empty !!!");
     }
     else {
         createNewToDo();
