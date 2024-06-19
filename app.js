@@ -96,6 +96,7 @@ function BringTodosFromStorage() {
 function clearToDos() {
     confirm("All to-dos will be deleted !!!")
     localStorage.removeItem("todos");
+    location.reload();
 }
 
 function deleteTodoFromStorage(e) {
